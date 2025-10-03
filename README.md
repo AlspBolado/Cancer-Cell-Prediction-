@@ -93,3 +93,7 @@ O algoritmo apresentou resultados superiores em todos os quesitos em relação a
 
 O projeto foi extremamente interessante, ainda mais sobre o ponto de vista de escassez de dados para um treinamento extensivo, fazendo com que o algoritmo tivesse que ser eficiente e capaz, ademais foi um exemplo claro de overfitting e como isso afeta o resultado final. Ademais, combinações de grupos diferentes de features e números de features devem afetar amplamente o resultado final, sendo possível achar combinações que levam a um algoritmo mais robusto e preciso.
 Por fim, creio que este resultado é extremamente satisfatório para o objetivo em mente e superior ao esperado.
+
+## Códigos Disponibilizados
+
+Tanto o código em Python quanto em C estão disponibilizados dentro da pasta docs, além de algumas informações extras. As bibliotecas necessárias também estão disponíveis no documento "requirements.txt"
