@@ -27,6 +27,10 @@ Ambos algoritmos foram executados com seeds aleatórias e testados 1000 vezes, p
 
 ## Resultados
 
+Será apresentado tanto as métricas obtidas para cada método e as células mais erradas por cada, além de suas características.
+
+### Modelo baseado no DataSet Completo
+
 O modelo treinado com base no dataset inteiro teve a seguinte performance:
 
 <div align="center">
@@ -46,11 +50,20 @@ As células com maiores quantidades de diagnósticos errados foram:
 ### Conclusão sobre o algoritmo baseado no dataset completo
 O algoritmo apresentou resultados surpreendentes se levar em consideração que havia muitas características muito redundantes e correlacionadas, podendo fazê-lo ficar tendecioso. Entretanto, o fato de que o Recall foi abaixo do esperado mostra que o dataset completo foi prejudicial ao resultado final, assim, mostrou-se ainda mais necessário fazer uma versão com o dataset enxuto.
 
+### Modelo baseado no DataSet Reduzido
+
 Por outro lado, o algoritmo treinado com o dataset reduzido teve a seguinte performance:
 
 <div align="center">
     
-![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_completo.jpg)
+![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_semi.jpg)
 
 </div>
 
+As células com maiores quantidades de diagnósticos errados foram:
+
+<div align="center">
+    
+![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_semi.jpg)
+
+</div>
