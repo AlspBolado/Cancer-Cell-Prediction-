@@ -27,7 +27,7 @@ Ambos algoritmos foram executados com seeds aleatórias e testados 1000 vezes, p
 
 ## Resultados
 
-Será apresentado tanto as métricas obtidas para cada método e as células mais erradas por cada, além de suas características.
+Será apresentado tanto as métricas obtidas para cada método, a matriz de confusão mediana e as células mais erradas por cada, além de suas características.
 
 ### Modelo baseado no DataSet Completo
 
@@ -36,6 +36,14 @@ O modelo treinado com base no dataset inteiro teve a seguinte performance:
 <div align="center">
     
 ![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_completo.jpg)
+
+</div>
+
+A Matriz de Confusão Mediana obtida com as 1000 interações foi:
+
+<div align="center">
+    
+![Matriz de confusão mediana para o dataset completo](./images/matriz_de_confusao_colorida.png)
 
 </div>
 
@@ -60,6 +68,8 @@ Por outro lado, o algoritmo treinado com o dataset reduzido teve a seguinte perf
 ![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_semi.jpg)
 
 </div>
+
+
 
 As células com maiores quantidades de diagnósticos errados foram:
 
