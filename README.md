@@ -69,7 +69,13 @@ Por outro lado, o algoritmo treinado com o dataset reduzido teve a seguinte perf
 
 </div>
 
+A Matriz de Confusão Mediana obtida com as 1000 interações foi:
 
+<div align="center">
+    
+![Matriz de confusão mediana para o dataset reduzido](./images/matriz_de_confusao_reduzida.png)
+
+</div>
 
 As células com maiores quantidades de diagnósticos errados foram:
 
