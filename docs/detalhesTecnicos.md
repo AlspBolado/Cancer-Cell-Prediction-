@@ -16,4 +16,4 @@ A versão disponível não contém 100% das implementações, apenas as que acho
 
 ## Como Executar o Algoritmo
 
-O algoritmo é facilmente executado, basta ter o dataset bruto para execução do código em Python para obter gráficos e informações sobre os dados, como estão agrupados e suas características além do dataset revisado. Ou se desejar, bastar baixar o arquivo .csv disponibilizado e executar o algoritmo em C.
+O algoritmo é facilmente executado, basta ter o dataset bruto e substituir onde está 'local do arquivo' pelo seu endereço para execução do código em Python para obter gráficos e informações sobre os dados, como estão agrupados e suas características além do dataset revisado. Ou se desejar, bastar baixar o arquivo .csv disponibilizado e executar o algoritmo em C.
