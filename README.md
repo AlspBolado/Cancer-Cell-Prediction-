@@ -48,7 +48,8 @@ As células com maiores quantidades de diagnósticos errados foram:
 </div>
 
 ### Conclusão sobre o algoritmo baseado no dataset completo
-O algoritmo apresentou resultados surpreendentes se levar em consideração que havia muitas características muito redundantes e correlacionadas, podendo fazê-lo ficar tendecioso. Entretanto, o fato de que o Recall foi abaixo do esperado mostra que o dataset completo foi prejudicial ao resultado final, assim, mostrou-se ainda mais necessário fazer uma versão com o dataset enxuto.
+
+O algoritmo apresentou resultados surpreendentes se levar em consideração que havia muitas características muito redundantes e correlacionadas, podendo fazê-lo ficar tendecioso. Entretanto, o fato de que o Recall foi abaixo do esperado mostra que o dataset completo foi prejudicial ao resultado final, assim, mostrou-se ainda mais necessário fazer uma versão com o dataset enxuto. Vale mencionar que as células diagnosticadas de maneira errônea mais constantemente foram casos intermediários, entretanto o espectro foi maior se comparado ao outro algoritmo e casos de outliers também foram erroneamente diagnosticados.
 
 ### Modelo baseado no DataSet Reduzido
 
@@ -64,6 +65,15 @@ As células com maiores quantidades de diagnósticos errados foram:
 
 <div align="center">
     
-![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_semi.jpg)
+![10 células mais erradas com o dataset completo](./images/10CelulasErradasDataMini.png)
 
 </div>
+
+### Conclusão sobre o algoritmo baseado no dataset reduzido
+
+O algoritmo apresentou resultados superiores em todos os quesitos em relação ao treinado baseado no dataset completo, mostrando que realmente havia overfitting de dados. Vale ressaltar que o Recall foi extremamente alto (aumento de 4,402%), mostrando que falsos negativos foram reduzidos consideravelemente, ademais o aumento marginal na acurácia e precisão se dá muito pela falta de um dataset realmente extenso para treinar o algoritmo em casos mais ambíguos, casos estes que o algoritmo com o dataset menor mais errou, outliers foram diagnosticados de maneira mais correta que o outro algoritmo.
+
+## Considerações sobre o Projeto
+
+O projeto foi extremamente interessante, ainda mais sobre o ponto de vista de escassez de dados para um treinamento extensivo, fazendo com que o algoritmo tivesse que ser eficiente e capaz, ademais foi um exemplo claro de overfitting e como isso afeta o resultado final. Ademais, combinações de grupos diferentes de features e números de features devem afetar amplamente o resultado final, sendo possível achar combinações que levam a um algoritmo mais robusto e preciso.
+Por fim, creio que este resultado é extremamente satisfatório para o objetivo em mente e superior ao esperado.
