@@ -27,4 +27,18 @@ Ambos algoritmos foram executados com seeds aleatórias e testados 1000 vezes, p
 
 ## Resultados
 
-O modelo treinado com base no dataset inteiro teve a seguinte performance: 
+O modelo treinado com base no dataset inteiro teve a seguinte performance:
+
+<div align="center">
+    
+![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_completo.jpg)
+
+</div>
+
+As células com maiores quantidades de diagnósticos errados foram:
+
+<div align="center">
+    
+![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_completo.jpg)
+
+</div>
