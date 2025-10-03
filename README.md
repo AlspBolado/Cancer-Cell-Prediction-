@@ -39,6 +39,18 @@ As células com maiores quantidades de diagnósticos errados foram:
 
 <div align="center">
     
+![10 células mais erradas com o dataset completo](./images/10CelulasErradasDataSet.png)
+
+</div>
+
+### Conclusão sobre o algoritmo baseado no dataset completo
+O algoritmo apresentou resultados surpreendentes se levar em consideração que havia muitas características muito redundantes e correlacionadas, podendo fazê-lo ficar tendecioso. Entretanto, o fato de que o Recall foi abaixo do esperado mostra que o dataset completo foi prejudicial ao resultado final, assim, mostrou-se ainda mais necessário fazer uma versão com o dataset enxuto.
+
+Por outro lado, o algoritmo treinado com o dataset reduzido teve a seguinte performance:
+
+<div align="center">
+    
 ![Resultado de 1000 iterações do dataset completo](./images/tabela_de_metricas_completo.jpg)
 
 </div>
+
