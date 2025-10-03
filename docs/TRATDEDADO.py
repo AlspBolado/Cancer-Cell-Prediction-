@@ -9,7 +9,7 @@ from imblearn.over_sampling import SMOTE
 
 
 #Leitura do Arquivo
-df = pd.read_csv(r"D:\Comp2\PrjComp2\Breast-cancer.csv")
+df = pd.read_csv('local do arquivo')
 
 df.head()
 df.info()
@@ -146,5 +146,6 @@ plt.ylabel('Contagem')
 plt.show()
 
 df_resampled = pd.concat([pd.DataFrame(x_resampled), pd.DataFrame(y_resampled, columns=['diagnosis'])], axis=1)
+
 
 df_resampled.to_csv(r"D:\Comp2\PrjComp2\Breast-cancer-resampled.csv", index=False)
